@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceep-Cianorte</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <div class="Nav">
+        <nav class="inNav">
+            <a href="" class="LeftSpace">Acessibilidade</a>
+            <a href="" class="LeftSpace">Conteudo</a>
+            <a href="" class="LeftSpace">Menu</a>
+            <a href="" onclick="TamanhoMA()" class="LeftSpace">Tamanho+</a>
+            <a href="" onclick="TamanhoME()" class="LeftSpace">Tamanho-</a>
+        </nav>
+    </div>
+
+    <div class="img">
+        <img src="Assets/ceep_cianorte_logo-removebg-preview.png" height="128px" width="128px">
+    </div>
+    <header class="header">
+
+        <li class="Sobre">Sobre o colegio
+            <ul class="SobreF">
+                <a href="http://inscricao.ceepcianorte.com.br">Pré Inscrição 2024</a><br>
+                <a href="http://ceepcianorte.com.br">Site Oficial</a><br>
+                <a href="http://">Localização</a><br>
+                <a href="http://">Propostas</a><br>
+                <a href="http://">Tipo de Ensino</a><br>
+                <a
+                    href="https://api.whatsapp.com/send/?phone=554436319685&text&type=phone_number&app_absent=0">Contato</a><br>
+            </ul>
+        </li>
+
+
+        <nav class="CursosNav">
+            <li class="Cursos">Cursos
+                <ul class="CursosF">
+                    <a href="http://" class="Norm norm2">Sistemas</a><br>
+                    <a href="http://" class="Norm">Farmacia</a><br>
+                    <a href="http://" class="Norm">Agronegocios</a><br>
+                    <a href="http://" class="Norm">Quimica</a><br>
+                    <a href="http://" class="Norm">Vestuario</a><br>
+                    <a href="http://" class="Norm">Segurança Do Trabaho(Extra Curricular)</a><br>
+                    <a href="http://" class="Norm">Recursos Humanos(Extra Curricular)</a><br>
+
+                </ul>
+            </li>
+
+        </nav>
+
+        <div class="Conexão">Conexão Ceep-Cianorte</div>
+
+    </header>
+
+    <main>
+
+        <div class="soma">
+            <div class="textofundo">
+
+                <div class="texto"> O CEEP - Centro Estadual de Educação Profissional, é
+                    uma instituição dedicada a oferecer educação de qualidade a<br>
+                    jovens que estão ingressando no ensino médio, e adultos que já concluiram seus estudos regulares,
+                    preparando-
+                    os para um futuro brilhante.<br><br>
+                    Fundado em 2015, nossa escola tem sido um farol de<br>
+                    aprendizado e crescimento intelectual e profissional em<br>
+                    Cianorte e região.<br><br>
+                    A equipe CEEP acredita que a educação é a chave para o<br>
+                    sucesso e, por isso fornecemos um ambiente amplo no<br>
+                    aprendizado seguro e enriquecedor, contamos com
+                    cursos profissionalizantes, laboratórios disponíveis para todos
+                    os cursos, anfiteatro com palestras que contribuem com o<br>
+                    desenvolvimento educacional e profissional dos alunos e<br>
+                    muito mais.<br><br>
+                    Nossa missão é inspirar e capacitar os alunos a atingirem todo<br>
+                    o seu potencial.
+                </div>
+            </div>
+
+            <aside class="ImagemRandom"><img id="Imagem" class="Imagema" src="Assets/imageloca.png" height="500"
+                    width="1000">
+
+                <div class="but but1" id="botao">
+                    < </div>
+                        <div class="but but2" id="botao2"> > </div>
+
+            </aside>
+
+        </div>
+
+
+        <script>
+            var imagem2 = "Assets/imageloca.png"
+            var imagem1 = "Assets/Ceep1.png";
+            var botao = document.querySelector("#botao");
+            var botao2 = document.querySelector("#botao2");
+            var imagem = document.querySelector("#Imagem");
+
+            var teste = 1;
+
+            botao.addEventListener("click", function () {
+
+                imagem.setAttribute("src", imagem1)
+
+            })
+
+            botao2.addEventListener("click", function () {
+
+                imagem.setAttribute("src", imagem2)
+
+            })
+
+
+
+
+
+
+            if (teste >= 4) {
+                teste = teste - teste
+            }
+
+
+
+
+
+        </script>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
